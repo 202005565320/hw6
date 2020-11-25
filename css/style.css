@@ -1,0 +1,267 @@
+*
+{
+  margin: 0px;
+  padding: 0px;
+}
+.bg
+{
+  background-image:url(st/bg/6.png);
+}
+ .head
+{   
+  text-align: center;
+  box-shadow: black 10px 10px;
+  font-size:50px;
+  font-family:cy;
+  color: cyan;
+  text-shadow: wheat 5px 5px 2px; 
+  font-weight: bolder;
+  height:240px;
+  background-image: url(st/bg/6.jpg);
+  background-size: 100% 100%;
+  background-color: aquamarine;
+  overflow: hidden;
+  word-break: break-all;
+}
+ .body 
+{ 
+  float:both;
+  font-size:15px;
+  font-family:yy;
+  color:cyan;
+  white-space: nowrap;      
+  height:4000px;
+  background-image: url(st/bg/6.png);
+  background-color: rgb(255, 255, 255);
+  overflow:auto
+}
+ .l
+{
+ float: left;
+ display:flex;
+ display: flex;
+ width:10%;
+ height: 100%;
+ background-image:url(st/img/7.gif);
+}
+ .r
+{
+ float: right;
+ display:flex;
+ display: flex;
+ width: 10%;
+ height: 100%;
+ background-image:url(st/img/7.gif);
+}
+ .box0
+{
+  margin-left: 40px;
+  margin-right: 40px;
+  width:95%;
+  height:5%;
+  text-align: center;
+  overflow: hidden;
+  word-break: break-all;
+  border-radius: 45px;
+  background-image: url(st/bg/3.jpg);
+  background-size: 100% 100%;
+  font-size: 20px;
+  color: sienna;
+}
+ .box1
+{
+ float: left;
+ width:80%;
+ height:100%;
+ overflow: hidden;
+ word-break: break-all;
+}
+ .box2
+{
+ margin-left: 20px;
+ margin-right: 20px;
+ margin-top: 20px;
+ display:block;
+ width: 40%;
+ height: 18%;
+ word-break: break-all;
+ background-image: url(st/bg/);
+ background-size: 100% 100%;
+}
+.box3
+{
+ position:relative;
+ border-radius: 5px;
+ margin-left: 20px;
+ margin-right: 20px;
+ margin-top: 20px;
+ display:block;
+ width: 100%;
+ height: 80%;
+ border-radius: 20px;
+ word-break: break-all;
+ -webkit-border-radius: 20px;
+ -moz-border-radius: 20px;
+ -ms-border-radius: 20px;
+ -o-border-radius: 20px;
+}
+.box4
+{
+ display:block;
+ width: 100%;
+ height: 25%;
+ background-size: 100% 100%;
+ overflow: hidden;
+ word-break: break-all;
+}
+.box5
+{
+ display:inline-block;
+ width:100%;
+ height: 8%;
+ background-image:url(st/bg/);
+ background-size: 100% 100%;
+ text-align: center;
+ overflow: hidden;
+ word-break: break-all;
+}
+ .overlay
+{
+ position:absolute;
+ bottom:0;
+ left:0;
+ right:0;
+ background-color:#000000;
+ background-image: url(st/img/3.gif);
+ background-size: 100% 100%;
+ overflow:hidden;
+ width:100%;
+ height:0;
+ border-radius: 20px;
+ transition: 0.3s ease;
+}
+ .box3:hover .overlay
+{
+ top:0;
+ bottom:0;
+ height:100%;
+}
+.img
+{
+  height:0;
+  width:0;
+}
+ .box4:hover .img
+{
+   height: fit-content;
+   width: fit-content;
+   transition: 1s ease;
+}
+#a
+{ 
+  background-image:url(st/img/h.jpeg);
+  background-size:100% 100%;
+}
+#b
+{
+  background-image:url(st/img/b.jpeg);
+  background-size:100% 100%;
+}
+#c 
+{
+  background-image:url(st/img/t.jpeg);
+  background-size:100% 100%;
+}
+#d 
+{
+  background-image:url(st/img/xbb.jpeg);
+  background-size:100% 100%;
+}
+#e
+{
+  background-image:url(st/img/js.jpeg);
+  background-size:100% 100%;
+}
+#r 
+{
+    float:right;
+}
+#l 
+{
+   float: left;
+}
+#top
+{
+  border-radius: 0;
+}
+#end
+{
+  border-radius: 0;
+}
+ ul
+ {
+  width:fit-content;
+  list-style-type:none;
+  background-image: url(st/img/xbb.jpeg);
+  background-repeat: repeat-y;
+  position:fixed;
+  top:240px;
+ }
+ li
+ {
+  width:100%;
+  display:block;
+ }
+ li a
+ {
+   display: block;
+   text-decoration: solid;
+ }
+ .li
+ {
+  padding-top: 20px;
+  width:fit-content;
+  height: 40px;
+  font-weight: bolder;
+ }
+ .li:hover a
+ {
+   font-size:large;
+   color: darkblue;
+   text-shadow: brown 1px 1px 1px;
+ }
+ img
+ { 
+   display: block;
+   max-height:100%;
+   max-width:100%;
+   -webkit-user-drag: none;
+ } 
+ h1
+ { 
+   font-family: cy;
+   font-weight: bolder;
+   text-shadow: grey 1px 1px 1px;
+ }
+ p
+ {
+   font-family: yy;
+   font-weight: bolder;
+   text-shadow: grey 1px 1px 1px;
+ }
+ span
+ {
+   font-family: cy;
+   font-weight: lighter;
+ }
+ @font-face
+ {
+  font-family:yy;
+  src: url(font/SIMYOU.TTF);
+  font-size: x-large;
+ }
+ @font-face
+ {
+   font-family:cy;
+   src: url(font/STCAIYUN.TTF);
+ }
